@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 # Load the CSV file
-file_path = 'Data1.csv'
+file_path = 'Data2.csv'
 df = pd.read_csv(file_path)
 
 # Remove extra spaces from the column names
