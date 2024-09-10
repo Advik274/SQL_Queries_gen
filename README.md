@@ -17,3 +17,5 @@ Feel free to fork this repository and contribute to improving the project!
 
 ## Contact
 For any inquiries or suggestions, feel free to contact me through [LinkedIn](https://www.linkedin.com/in/arnav-latiyan-696615297/).
+
+Also Check out the post at [Linkedin](https://www.linkedin.com/posts/arnav-latiyan-696615297_python-sql-queries-activity-7239214483225616384-BTND?utm_source=share&utm_medium=member_desktop).
