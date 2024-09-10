@@ -1,0 +1,96 @@
+INSERT INTO videos (
+        v_url, 
+        v_date, 
+        v_uni_no, 
+        status, 
+        filter, 
+        title, 
+        v_desc, 
+        length, 
+        cntlike, 
+        cntdislike, 
+        views, 
+        cntcomment, 
+        v_descr, 
+        language
+        ) VALUES (
+        '7otAJa3jui8', 
+        '2011-08-13', 
+        '4482536649151954', 
+        'Free', 
+        'rhymes', 
+        'Row Row Row Your Boat | Bedtime Lullaby | Super Simple Songs', 
+        '♫ Row row row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream. ♫', 
+        '02-Jan', 
+        102, 
+        50, 
+        433, 
+        0, 
+        '♫ Row row row your boat, gently down the stream. Merrily, merrily, merrily, merrily, life is but a dream. ♫', 
+        'English'
+        );
+
+INSERT INTO videos (
+        v_url, 
+        v_date, 
+        v_uni_no, 
+        status, 
+        filter, 
+        title, 
+        v_desc, 
+        length, 
+        cntlike, 
+        cntdislike, 
+        views, 
+        cntcomment, 
+        v_descr, 
+        language
+        ) VALUES (
+        'jvJDqQN4hk8', 
+        '2023-12-28', 
+        '4482536649151955', 
+        'Free', 
+        'rhymes', 
+        'The Animals On The Farm Super Simple Songs', 
+        'The Animals On The Farm Super Simple Songs', 
+        'Mar-23', 
+        186, 
+        35, 
+        673, 
+        0, 
+        'The Animals On The Farm Super Simple Songs', 
+        'English'
+        );
+
+INSERT INTO videos (
+        v_url, 
+        v_date, 
+        v_uni_no, 
+        status, 
+        filter, 
+        title, 
+        v_desc, 
+        length, 
+        cntlike, 
+        cntdislike, 
+        views, 
+        cntcomment, 
+        v_descr, 
+        language
+        ) VALUES (
+        'CUciBrtqFGM', 
+        '2015-11-25', 
+        '4482536649151956', 
+        'Free', 
+        'rhymes', 
+        'Machli Jal Ki Rani hai - Hindi Rhymes', 
+        'Machli Jal Ki Rani hai - Hindi Rhymes | hindi baby songs | Jugnu kids nursery rhymes', 
+        'Mar-29', 
+        79, 
+        16, 
+        548, 
+        0, 
+        'Machli Jal Ki Rani hai - Hindi Rhymes | hindi baby songs | Jugnu kids nursery rhymes', 
+        'Hindi'
+        );
+
