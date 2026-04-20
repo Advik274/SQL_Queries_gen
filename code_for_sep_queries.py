@@ -34,36 +34,38 @@ with open(output_path, 'w', encoding='utf-8') as file:
         language = row['Language']
 
         query = f"""INSERT INTO videos (
-        v_url, 
-        v_date, 
-        v_uni_no, 
-        status, 
-        filter, 
-        title, 
-        v_desc, 
-        length, 
-        cntlike, 
-        cntdislike, 
-        views, 
-        cntcomment, 
-        v_descr, 
+        v_url,
+        v_date,
+        v_uni_no,
+        status,
+        filter,
+        title,
+        v_desc,
+        length,
+        cntlike,
+        cntdislike,
+        views,
+        cntcomment,
+        v_descr,
         language
         ) VALUES (
-        '{v_url}', 
-        '{v_date}', 
-        '{v_uni_no}', 
-        '{status}', 
-        '{filter_value}', 
-        '{title}', 
-        '{v_desc}', 
-        '{length}', 
-        {cntlike}, 
-        {cntdislike}, 
-        {views}, 
-        {cntcomment}, 
-        '{v_desc}', 
+        '{v_url}',
+        '{v_date}',
+        '{v_uni_no}',
+        '{status}',
+        '{filter_value}',
+        '{title}',
+        '{v_desc}',
+        '{length}',
+        {cntlike},
+        {cntdislike},
+        {views},
+        {cntcomment},
+        '{v_desc}',
         '{language}'
-        );\n\n"""
+        );
+
+"""
 
         # Write each query on a new line
         file.write(query)
